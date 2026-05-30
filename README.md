@@ -8,7 +8,7 @@
 ---
 
 ### 🔍 Quick Technical Overview & Summary:
-Try running `sudo mysqladmin password reset` to reset the root password, then update the MySQL configuration file to use a new socket location.
+The error means MySQL is not listening on the default socket '/tmp/mysql.sock'. Try reinstalling MySQL using the correct package name 'mysql-server' instead of 'mysql'.
 
 ---
 
